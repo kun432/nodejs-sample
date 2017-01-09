@@ -22,3 +22,11 @@ $ node app.js
 ```
 http://localhost:1234
 ```
+
+or deploy to Heroku.
+
+```shell
+$ heroku login
+$ heroku create kun432-nodejs-sample
+$ git push heroku master
+```
