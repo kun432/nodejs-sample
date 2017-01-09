@@ -29,4 +29,5 @@ or deploy to Heroku.
 $ heroku login
 $ heroku create kun432-nodejs-sample
 $ git push heroku master
+$ heroku open
 ```
