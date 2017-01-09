@@ -2,7 +2,7 @@ var http = require('http');
 
 var server = http.createServer();
 server.on('request',doRequest);
-server.listen(1234);
+server.listen(process.env.PORT || 1234, process.env.IP);
 console.log('Server Running!')
 
 function doRequest(req,res){
